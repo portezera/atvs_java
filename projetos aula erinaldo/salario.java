@@ -1,3 +1,10 @@
+package condicional;
+
+import java.util.Scanner;
+
+public class salario {
+
+public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
 float salario;
@@ -46,4 +53,6 @@ salarioDescontado = (salario - desconto);
 System.out.printf("Desconto em porcentagem: %.1f%%\n", aliquota*100);
 System.out.printf("Desconto em reais: R$%.2f\n", desconto);
 System.out.printf("O salário foi de %.2f para %.2f\n", salario, salarioDescontado);
+}
+}
 }
