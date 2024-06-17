@@ -17,9 +17,6 @@ public class Data {
 	}
 	
 	//3
-	//(abril, junho, setembro e novembro) com 30 dias,
-	//sete (janeiro, março, maio, julho, agosto, outubro e dezembro) com 31 dias
-	//e o único mês, fevereiro, com 28 dias (ou 29 dias, nos anos bissextos)
 	public Data(int d,int m) {
 		if (dia < 0 || dia >31 )
 			throw new IllegalArgumentException("o dia precisa estar entre 0  e 31");
